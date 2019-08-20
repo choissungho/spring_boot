@@ -5,9 +5,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class try_controller {
-    @RequestMapping(value = "/member/list")
-    public void memberAction(){
+    @RequestMapping(value = "/member/home")
+    public void homeAction() {
+    }
 
+    @RequestMapping(value = "/member/login")
+    public void loginAction() {
+    }
+
+    @RequestMapping(value = "/member/list")
+    public void listAction(){
     }
 }
-
